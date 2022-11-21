@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--  Memanggil list item item_card.xml  -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_pahlawan"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_card"/>
+        tools:listitem="@layout/item_card"
+        />
 
 
 </RelativeLayout>
