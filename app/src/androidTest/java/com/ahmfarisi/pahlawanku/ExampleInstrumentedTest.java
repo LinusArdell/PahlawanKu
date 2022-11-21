@@ -1,4 +1,4 @@
-package george.if3b.aplikasi_pahlawan;
+package com.ahmfarisi.pahlawanku;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("george.if3b.aplikasi_pahlawan", appContext.getPackageName());
+        assertEquals("com.ahmfarisi.pahlawanku", appContext.getPackageName());
     }
 }

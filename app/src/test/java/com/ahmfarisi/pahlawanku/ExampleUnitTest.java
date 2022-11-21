@@ -1,4 +1,4 @@
-package com.linus.pahlawanku;
+package com.ahmfarisi.pahlawanku;
 
 import org.junit.Test;
 

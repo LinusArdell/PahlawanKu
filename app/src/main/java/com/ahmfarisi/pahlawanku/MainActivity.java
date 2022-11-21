@@ -1,4 +1,4 @@
-package george.if3b.aplikasi_pahlawan;
+package com.ahmfarisi.pahlawanku;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -16,16 +16,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         rvPahlawan = findViewById(R.id.rv_pahlawan);
         rvPahlawan.setHasFixedSize(true);
+
         data.addAll(DataPahlawan.ambilDataPahlawan());
         tampilDataCard();
     }
 
     private void tampilDataCard(){
         rvPahlawan.setLayoutManager(new LinearLayoutManager(this));
-        AdapaterCard pluginCard = new AdapaterCard(data);
-        rvPahlawan.setAdapter(pluginCard);
-
+        AdapterCard varAdapterCard = new AdapterCard(data);
+        rvPahlawan.setAdapter(varAdapterCard);
     }
 }

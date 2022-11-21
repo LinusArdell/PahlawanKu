@@ -1,4 +1,4 @@
-package george.if3b.aplikasi_pahlawan;
+package com.ahmfarisi.pahlawanku;
 
 public class ModelPahlawan {
     private String nama;
